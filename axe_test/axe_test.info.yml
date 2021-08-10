@@ -1,0 +1,5 @@
+name: 'axe_test'
+type: module
+description: 'Axelerant Test'
+core: 8.x
+package: 'Custom'
