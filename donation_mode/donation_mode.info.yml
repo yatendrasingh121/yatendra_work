@@ -1,0 +1,8 @@
+name: 'Donation Mode Field Type'
+type: module
+description: 'Add Donation Mode field type to Add field Configuration'
+core: 8.x
+package: 'Field types'
+# The list of dependencies must contains the 'field' value
+dependencies:
+  - field
