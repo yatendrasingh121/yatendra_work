@@ -1,0 +1,10 @@
+axe_test.page-node-json:
+  path: '/page_json/{site_api_key}/{node}'
+  defaults:
+     _controller: '\Drupal\axe_test\Controller\PageJsonController::getJson'
+     _title: 'Json Type Representation of Specific Page Node'
+  methods:  [GET]
+  options:
+     no_cache: 'TRUE'
+  requirements:
+     _custom_access: '\Drupal\axe_test\Controller\PageJsonController::checkAccess'  
